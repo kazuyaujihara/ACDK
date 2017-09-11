@@ -1,0 +1,3 @@
+[submodule "NCDK"]
+	path = NCDK
+	url = https://github.com/kazuyaujihara/NCDK

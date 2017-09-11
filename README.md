@@ -1,21 +1,14 @@
-# NCDK: The Chemistry Development Kit ported to C# 
+# ACDK: COM-wrappers to NCDK
 
-NCDK is .NET Framework port of the Chemistry Development Project (CDK).
+ACDK is COM-wrappers to NCDK <https://github.com/kazuyaujihara/NCDK>.
 
-Copyright 2016-2017 Kazuya Ujihara
+Copyright 2017 Kazuya Ujihara
 
-The Chemistry Development Project (CDK) <https://github.com/cdk/cdk> is developing by the CDK Development Team.
-
-License: LGPL v2.1, see LICENSE.
+License: MIT LICENSE.
 
 ## Getting Started
-Most of codes are written in C#. You can learn NCDK from CDK documents, NCDKTests and NCDKDisplayTests project.
-
-## Build and Test
-Open NCDK.sln or NCDKDisplay.sln. These creates the libraries and its test project.
-
 ACDK.sln creates COM-wrappers to NCDK. It provides access to CDK's molecular descriptor functions from VBA. 
-The sample Excel file is in ACDKTests\ACDK_Test.xlsm.
+The sample Excel file is in ACDKTests\ACDK_Example.xlsm.
+ACDK_Installer is the installer porject. It installs all required files and register to global assembly cache.
 
-## Contribute
-The current release is based on cdk-2.0.
+ 
